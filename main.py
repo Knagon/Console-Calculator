@@ -1,6 +1,6 @@
 import time
 from colorama import init, Fore, Style
-init() # for colorama colors working in windows
+init()
 
 from art import logo
 
@@ -21,10 +21,10 @@ def division(n1, n2):
     return n1 / n2
 
 oper = ["+", "-", "*", "/"]
-n = True  # variable for first number (a) input if
-W = True  # variable for main loop working
+n = True
+W = True
 
-while W: # boolean for main loop working
+while W:
     print(logo)
     if n:
         while True:
